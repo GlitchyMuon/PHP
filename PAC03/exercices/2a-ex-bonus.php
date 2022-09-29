@@ -23,7 +23,7 @@
             $HELLO= "bli";
             $var1="bluy";
 
-            echo "$uneVar"."$ma_var"."$_unevar"."$Hello"."$var1"."<br>";
+            echo "$uneVar $ma_var $_unevar $Hello $var1 <br>";
         ?>
 
 
