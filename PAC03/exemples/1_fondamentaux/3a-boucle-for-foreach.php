@@ -27,6 +27,7 @@ echo "<h4>For</h4>";
  
  //Solution : boucle for+
 $totalJours = count($joursSemaine);
+//for (phase d'initialisation(variables) ; conditions de continuation ; phase incrémental, de sortie de boucmle)
 for ($index=0; $index < $totalJours; $index++) { 
     echo $joursSemaine[$index]; 
 }

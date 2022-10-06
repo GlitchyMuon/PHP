@@ -44,6 +44,15 @@ while ($count < 10) {
  *
  */
 
+$count= 1;
+while ($count > 10) {
+    echo "$count"."<br>";
+
+}
+
+for($count=1 ; $count < 11 ; $count++) {
+    echo "$count";
+}
 
 
 
