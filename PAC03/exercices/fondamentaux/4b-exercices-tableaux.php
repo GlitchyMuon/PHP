@@ -13,7 +13,13 @@
   * Affichage à l'envers: pistache, chocolat, amandes, patate,sarrasin
   */
 
-  
+$crepes= ['sarrasin', 'patate', 'amandes', 'chocolat', 'pistache'];
+$taille= count($crepes);
+for ($i=0; $i < $taille;  $i+=2 ) {
+    echo $crepes[$i]." ";
+}
+
+
 
 
   
@@ -41,7 +47,7 @@
    * 
    */
 
-   e
+   
 
    /**
     *  Tableaux associatifs 

@@ -45,13 +45,14 @@ while ($count < 10) {
  */
 
 $count= 1;
-while ($count > 10) {
+while ($count < 10) {
+    $count++ ;
     echo "$count"."<br>";
 
 }
 
 for($count=1 ; $count < 11 ; $count++) {
-    echo "$count";
+    echo "$count"."<br>" ;
 }
 
 
@@ -64,5 +65,18 @@ for($count=1 ; $count < 11 ; $count++) {
 *       - while 
 */
 
- 
+for ($floor =1; $floor < 21 ; $floor++) {
+    echo "Étage "." $floor "."<br>" ;
+}
+
+$floor = 1;
+while ($floor < 21) {
+    echo "Étage "."$floor "."<br>";
+    $floor++; //si je met cette ligne juste au dessus, il aura déjà incrémenté d'un et commencera à 2 jusque 21.
+}
+/*$floor = 0;
+while ($floor < 20) {
+    $floor++;       Si je le met ici, il faut mettre $floor=0 et < 20
+    echo "Étage "."$floor "."<br>";
+    */
 ?>

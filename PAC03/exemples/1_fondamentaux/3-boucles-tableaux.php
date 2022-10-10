@@ -113,7 +113,7 @@ echo $unTableau[2];
   */
 
 define("CREPES", ["mikado", "chocolat"]); 
-echo "taille  tableau CREPES ". count(CREPES); 
+echo "taille  tableau CREPES ". count(CREPES). END_LINE; 
 
 for ($i=0; $i < 2 ; $i++) { 
         # code...
